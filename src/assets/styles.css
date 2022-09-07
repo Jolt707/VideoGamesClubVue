@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+}
+
+.dark {
+    --scrollbar-hover: #2f2f2f;
+    --scrollbar-border: #181818;
+    --scrollbar-bg: #232323;
+    background-color: #181818;
+    color: white;
+}
+
+.light {
+    --scrollbar-hover: #d7d1d1;
+    --scrollbar-border: white;
+    --scrollbar-bg: #e8e7e7;
+    background-color: white;
+    color: black;
+}
+.container {
+    text-align: center;
+    min-height: 83.8vh;
+}
+
+.navbar-title {
+    margin-left: 10px;
+    font-weight: 600;
+    padding-top: 14px;
+    margin-right: 11px;
+}
+
+.dark .navbar {
+    display: flex;
+    background-color: #1c1b1b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 49px;
+}
+
+.light .navbar {
+    display: flex;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 49px;
+    color: black;
+}
+
+.dark .navbar2 {
+    justify-content: end;
+    display: flex;
+    background-color: #1c1b1b;
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+
+.light .navbar2 {
+    justify-content: end;
+    display: flex;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: black;
+}
+
+.navbar-item {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.light .navbar-item {
+    color: black;
+}
+
+.dark .navbar-item:hover {
+    background-color: #2D2F31;
+}
+
+.light .navbar-item:hover {
+    background-color: #d9dade;
+}
+
+.bettercompass-blue {
+    background: -webkit-radial-gradient(#0179f3,#0190ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text-down {
+    margin-top: 10px;
+}
+
+.large-image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.active {
+    background: #0a70b0;
+    color: white !important;
+}
+
+.active:hover {
+    background: #0a70b0 !important;
+}
+
+a {
+    color: #0190ea;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    position: static;
+    width: 100%;
+}
+
+.dark .footer {
+    background-color: #1c1b1b;
+}
+
+.light .footer {
+    background-color: whitesmoke;
+}
+
+.footer-item {
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 970px) {
+    .footer-item {
+        font-size: 14px;
+    }}
+
+@media screen and (min-width: 970px) {
+    .container {
+        margin-left: 325px;
+        margin-right: 325px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .navbar-item {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+.mobile-navbar {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.mobile-navbar-item {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.dark .mobile-navbar-item {
+    color: white;
+}
+
+.light .mobile-navbar-item {
+    color: black;
+}
+
+.hamburger {
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: end;
+    float: right;
+}
+
+.light .hamburger {
+    color: black;
+}
+
+@media screen and (max-width: 970px) {
+    .footer {
+        text-align: center;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .mobile-navbar-item {
+        display: none;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg) !important;
+    border: solid 3px var(--scrollbar-border) !important;
+    border-radius: 7px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-hover) !important;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #181818;
+}
