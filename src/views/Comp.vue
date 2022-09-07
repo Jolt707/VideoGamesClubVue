@@ -5,7 +5,7 @@
     <h3>Starting on 20/09/22</h3>
     <h4 class="text-down">
       The day of the competition is soon! Our competition details and how to
-      join will be linked <a href="compinfo.html">here</a>
+      join will be linked <router-link to="compinfo">here</router-link>
     </h4>
     <p class="text-down">
       Since we have gained more members we are hoping this will be out best
