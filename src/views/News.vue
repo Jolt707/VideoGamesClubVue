@@ -6,7 +6,7 @@
     <p class="text-down">
       Starting soon we are having a Super Smash Bros competition. It will be a
       2v2 battle with any characters, to view more information go
-      <a href="comp.html">here</a>.<br />
+      <router-link to="comp">here</router-link>.<br />
     </p>
     <p class="text-down">
       If you have any other questions about the competition after reading the
