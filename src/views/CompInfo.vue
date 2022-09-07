@@ -13,7 +13,7 @@
     </ul>
     <img
       class="large-image"
-      src="images/supersmashcomp.jpg"
+      src="../assets/images/supersmashcomp.jpg"
       alt="supersmashbros"
     />
   </div>
